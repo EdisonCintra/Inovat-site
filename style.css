@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+Criando variáveis CSS*/
+:root{
+    --verde-claro-navbar: #B4EDB4
+}
+
+/*
+Criando a NavBar do Site
+*/
+
+nav > img{
+    width: 200px;
+    height: 50px;
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: var(--verde-claro-navbar);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+}
+
+
+/*Configurando o body*/
+
+body{
+    margin: 0;
+}
