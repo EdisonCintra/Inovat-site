@@ -35,6 +35,12 @@ nav {
 
 /*Configurando o body*/
 
-body{
+body.teste{
     margin: 0;
+    background-image: url(imgs/pexels-pixabay-159397.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    opacity: 0.6;
 }
+
+
